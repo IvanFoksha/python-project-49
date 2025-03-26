@@ -1,4 +1,5 @@
 from random import randint
+
 from brain_games.cli import welcome_user
 
 
@@ -33,8 +34,10 @@ def play_even_game():
             print('Correct!')
             correct_answers += 1
         else:
-            print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
-            print(f"Let's try again, {user_name}!")
+            print(
+                f"'{user_answer}' is wrong answer ;(. "
+                f"Correct answer was '{correct_answer}'."
+            )
             return
 
     print(f'Congratulations, {user_name}!')
