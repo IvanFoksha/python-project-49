@@ -1,8 +1,8 @@
-from brain_games.cli import welcome_user
+from brain_games.scripts.brain_even import play_even_game
 
 
 def main():
-    welcome_user()
+    play_even_game()
 
 
 if __name__ == '__main__':

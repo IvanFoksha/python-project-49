@@ -16,11 +16,12 @@ def valide_inpute(prompt):
 
 def play_even_game():
     user_name = welcome_user()
+    print('Answer "yes" if the number is even, otherwise answer "no".')
 
-    correct_answer = 0
+    correct_answers = 0
     max_questions = 3
 
-    while correct_answer < max_questions:
+    while correct_answers < max_questions:
         number = randint(1, 100)
         print(f'Question: {number}')
 
@@ -30,13 +31,14 @@ def play_even_game():
 
         if user_answer == correct_answer:
             print('Correct!')
-            correct_answer += 1
+            correct_answers += 1
         else:
-            print(
-                f"""
-                '{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.
-                Let's try again, {user_name}!
-                """
-            )
+            print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
+            print(f"Let's try again, {user_name}!")
             return
+
     print(f'Congratulations, {user_name}!')
+
+
+def main():
+    play_even_game()
