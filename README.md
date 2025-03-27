@@ -9,3 +9,7 @@
 ### Asciinema - use brain-even
 
 [![asciicast](https://asciinema.org/a/9izBYnz0uB5aOPZ1lcIr8r4vt.svg)](https://asciinema.org/a/9izBYnz0uB5aOPZ1lcIr8r4vt)
+
+### Asciinema - use brain-calc
+
+[![asciicast](https://asciinema.org/a/n78vCv2ftX95A6ep232XzdzHt.svg)](https://asciinema.org/a/n78vCv2ftX95A6ep232XzdzHt)
