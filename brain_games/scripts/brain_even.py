@@ -38,6 +38,7 @@ def play_even_game():
                 f"'{user_answer}' is wrong answer ;(. "
                 f"Correct answer was '{correct_answer}'."
             )
+            print(f"Let's try again, {user_name}!")
             return
 
     print(f'Congratulations, {user_name}!')
