@@ -1,4 +1,4 @@
-from random import randint, choice
+from random import randint
 
 from brain_games.cli import welcome_user
 
@@ -18,22 +18,22 @@ def play_calc_game():
     user_name = welcome_user()
     print('What is the result of the expression?')
 
-    correct_answers = 0
-    max_questions = 3
+    operations = ['+', '-', '*']
 
-    while correct_answers < max_questions:
+    for operator in operations:
         a = randint(1, 100)
         b = randint(1, 100)
-        operator = choice(['+', '-', '*'])
+
+        if operator == '-':
+            a, b = max(a, b), min(a, b)
 
         correct_answer = calculate(a, b, operator)
 
         print(f'Question: {a} {operator} {b}')
-        user_answer = input('Your answer: ').strip().lower()
+        user_answer = input('Your answer: ').strip()
 
         if user_answer.isdigit() and int(user_answer) == correct_answer:
             print('Correct!')
-            correct_answers += 1
         else:
             print(
                 f"'{user_answer}' is wrong answer ;(. "
