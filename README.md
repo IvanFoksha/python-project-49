@@ -13,3 +13,7 @@
 ### Asciinema - use brain-calc
 
 [![asciicast](https://asciinema.org/a/n78vCv2ftX95A6ep232XzdzHt.svg)](https://asciinema.org/a/n78vCv2ftX95A6ep232XzdzHt)
+
+### Asciinema - use brain-gcd
+
+[![asciicast](https://asciinema.org/a/xhqycnwwoD40JIvWWdcm95eMJ.svg)](https://asciinema.org/a/xhqycnwwoD40JIvWWdcm95eMJ)
