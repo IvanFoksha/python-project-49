@@ -30,7 +30,7 @@ def play_progression_game():
 
         question, correct_answer = hide_element(progression)
 
-        print(f'Question: {' '.join(map(str, question))}')
+        print(f"Question: {' '.join(map(str, question))}")
         user_answer = input('Your answer: ').strip()
 
         if user_answer == correct_answer:
