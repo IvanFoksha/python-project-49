@@ -1,9 +1,12 @@
 [project]
 name = "python-project-49"
 version = "0.1.0"
-description = "Add your description here"
+description = "A coolection of console games for logic training."
 readme = "README.md"
 requires-python = ">=3.12"
+authors = [
+    "Ivan Foksha <v.foksh6@gmail.com>",
+]
 dependencies = [
     "prompt>=0.4.1",
 ]
