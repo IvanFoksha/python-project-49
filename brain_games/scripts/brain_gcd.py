@@ -14,7 +14,7 @@ def gcd_function(a, b):
 
 def play_gcd_game():
     user_name = welcome_user()
-    print('What is the result of the expression?')
+    print('Find the greatest common divisor of given numbers.')
 
     correct_answers = 0
     max_questions = 3
