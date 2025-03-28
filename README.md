@@ -17,3 +17,7 @@
 ### Asciinema - use brain-gcd
 
 [![asciicast](https://asciinema.org/a/xhqycnwwoD40JIvWWdcm95eMJ.svg)](https://asciinema.org/a/xhqycnwwoD40JIvWWdcm95eMJ)
+
+### Asciinema - use brain-progression
+
+[![asciicast](https://asciinema.org/a/1yHZQ1Kb9AzKIhStuuxOymgIa.svg)](https://asciinema.org/a/1yHZQ1Kb9AzKIhStuuxOymgIa)
