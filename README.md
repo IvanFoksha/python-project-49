@@ -21,3 +21,7 @@
 ### Asciinema - use brain-progression
 
 [![asciicast](https://asciinema.org/a/1yHZQ1Kb9AzKIhStuuxOymgIa.svg)](https://asciinema.org/a/1yHZQ1Kb9AzKIhStuuxOymgIa)
+
+### Asciinema - use brain-prime
+
+[![asciicast](https://asciinema.org/a/lTqPlY5bxWBHhjs8QqqlwVQXK.svg)](https://asciinema.org/a/lTqPlY5bxWBHhjs8QqqlwVQXK)
