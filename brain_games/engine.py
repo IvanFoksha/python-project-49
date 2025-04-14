@@ -7,11 +7,8 @@ def play_game(game_logic, description):
     print(description)
 
     correct_answers = 0
-    max_questions = 3
 
-    while correct_answers < max_questions:
-        question, correct_answer = game_logic()
-
+    for question, correct_answer in game_logic():
         print(f'Question: {question}')
         user_answer = input('Your answer: ').strip()
 
