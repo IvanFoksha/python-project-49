@@ -1,3 +1,4 @@
+from brain_games.engine import PROGRESSION_LENGHT
 from random import randint
 
 
@@ -15,7 +16,7 @@ def hide_element(progression):
 def generate_round():
     start = randint(1, 50)
     step = randint(1, 10)
-    lenght = 10
+    lenght = PROGRESSION_LENGHT
 
     progression = generate_progression(start, step, lenght)
     question, correct_answer = hide_element(progression)
