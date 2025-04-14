@@ -1,5 +1,3 @@
-# brain_games/games/even.py
-
 from random import randint
 
 
