@@ -1,4 +1,4 @@
-from random import randint
+from random import randint, choice
 
 
 def calculate(a, b, operator):
@@ -12,30 +12,15 @@ def calculate(a, b, operator):
         raise ValueError(f'Неизвестный оператор: {operator}')
 
 
-def play_calc_game():
-    print('What is the result of the expression?')
-
+def generate_round():
     operations = ['+', '-', '*']
+    operator = choice(operations)
+    a = randint(1, 100)
+    b = randint(1, 100)
 
-    for operator in operations:
-        a = randint(1, 100)
-        b = randint(1, 100)
+    if operator == '-':
+        a, b = max(a, b), min(a, b)
 
-        if operator == '-':
-            a, b = max(a, b), min(a, b)
-
-        correct_answer = calculate(a, b, operator)
-
-        print(f'Question: {a} {operator} {b}')
-        user_answer = input('Your answer: ').strip()
-
-        if user_answer.isdigit() and int(user_answer) == correct_answer:
-            print('Correct!')
-        else:
-            print(
-                f"'{user_answer}' is wrong answer ;(. "
-                f"Correct answer was '{correct_answer}'."
-            )
-            return False
-
-    return True
+    correct_answer = str(calculate(a, b, operator))
+    question = f'{a} {operator} {b}'
+    return question, correct_answer
