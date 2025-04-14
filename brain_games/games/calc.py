@@ -10,7 +10,7 @@ def calculate(a, b, operator):
         return a * b
     else:
         raise ValueError(f'Неизвестный оператор: {operator}')
-    
+
 
 def play_calc_game():
     print('What is the result of the expression?')
@@ -37,5 +37,5 @@ def play_calc_game():
                 f"Correct answer was '{correct_answer}'."
             )
             return False
-    
+
     return True
