@@ -7,6 +7,7 @@ def main():
         'Answer "yes" if given number is prime. '
         'Otherwise answer "no".'
     )
+
     def game_logic():
         for _ in range(MAX_QUESTION):
             yield generate_round()
