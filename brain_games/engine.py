@@ -1,6 +1,10 @@
 from brain_games.cli import welcome_user
 
 
+MAX_QUESTION = 3
+PROGRESSION_LENGHT = 10
+
+
 def play_game(game_logic, description):
     # Вынесена общая логика игры
     user_name = welcome_user()
