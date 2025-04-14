@@ -1,4 +1,4 @@
-from random import randint, choice
+from random import randint
 
 
 def calculate(a, b, operator):
@@ -12,9 +12,9 @@ def calculate(a, b, operator):
         raise ValueError(f'Неизвестный оператор: {operator}')
 
 
-def generate_round():
+def generate_round(index):
     operations = ['+', '-', '*']
-    operator = choice(operations)
+    operator = operations[index]
     a = randint(1, 100)
     b = randint(1, 100)
 
